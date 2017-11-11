@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.desafiolatam.foodinfo.views.MainActivity">
+
+    <EditText
+        android:id="@+id/itemNameFoodEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        android:hint="Ingresa item a buscar"
+        />
+
+    <TextView
+        android:id="@+id/nameFoodTv"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/caloriesFoodTv"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+   <Button
+       android:id="@+id/searchBtn"
+       android:text="BUSCAR ITEM"
+       android:layout_marginBottom="32dp"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:layout_gravity="center"
+       android:background="@color/colorAccent"
+        />
+
+</LinearLayout>
